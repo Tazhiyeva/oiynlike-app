@@ -14,6 +14,7 @@
 		AFB527B72BE4D886003BE285 /* oiynlike_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB527B62BE4D886003BE285 /* oiynlike_appTests.swift */; };
 		AFB527C12BE4D886003BE285 /* oiynlike_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB527C02BE4D886003BE285 /* oiynlike_appUITests.swift */; };
 		AFB527C32BE4D886003BE285 /* oiynlike_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB527C22BE4D886003BE285 /* oiynlike_appUITestsLaunchTests.swift */; };
+		AFB527D02BE4D8FF003BE285 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB527CF2BE4D8FF003BE285 /* MyWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		AFB527BC2BE4D886003BE285 /* oiynlike-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oiynlike-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB527C02BE4D886003BE285 /* oiynlike_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oiynlike_appUITests.swift; sourceTree = "<group>"; };
 		AFB527C22BE4D886003BE285 /* oiynlike_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oiynlike_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFB527CF2BE4D8FF003BE285 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
+		AFB527D12BE4D94A003BE285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +97,12 @@
 		AFB527A42BE4D884003BE285 /* oiynlike-app */ = {
 			isa = PBXGroup;
 			children = (
+				AFB527D12BE4D94A003BE285 /* Info.plist */,
 				AFB527A52BE4D884003BE285 /* oiynlike_appApp.swift */,
 				AFB527A72BE4D884003BE285 /* ContentView.swift */,
 				AFB527A92BE4D886003BE285 /* Assets.xcassets */,
 				AFB527AB2BE4D886003BE285 /* Preview Content */,
+				AFB527CF2BE4D8FF003BE285 /* MyWebView.swift */,
 			);
 			path = "oiynlike-app";
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB527A82BE4D884003BE285 /* ContentView.swift in Sources */,
+				AFB527D02BE4D8FF003BE285 /* MyWebView.swift in Sources */,
 				AFB527A62BE4D884003BE285 /* oiynlike_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +431,7 @@
 				DEVELOPMENT_TEAM = 8G9T29239P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "oiynlike-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +461,7 @@
 				DEVELOPMENT_TEAM = 8G9T29239P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "oiynlike-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
